@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    font-size: 250%;
+}
+
+input {
+    display:none;
+}
+
+label{
+    display: block;
+    padding: 10px 20px; 
+    cursor: pointer;
+    background-color: grey;  
+    color: darkred;
+    border:1px solid #090909; /* Presque noir */
+    border-radius: 5px;
+    transition-duration: 1.5s;
+    margin:1px;
+}
+
+label:hover {
+    background-color: #1E1E1E; /* Gris très foncé */
+    color : white;
+}
+
+.sousSection {
+    margin:10px 20px;
+    background-color: #666; /* Gris un peu foncé */
+    padding: 5px;
+    border: 1px solid #090909; /* Presque noir */
+    border-radius: 10px;
+}
+
+input + label + .sousSection{
+    display:none;
+}
+
+input:checked+label+.sousSection {
+    display:block;
+}
+
+address {
+    display:inline-block;
+    padding: 5px;
+    margin-top: 21px;
+    border:1px solid #090909; /* Presque noir */
+    border-radius: 5px; 
+    color:darkred;
+    background-color: grey; 
+    font-size: 110%; 
+} 
+
+address a {
+    text-decoration: none;
+    color : darkred;
+}
+
+address a:hover{
+    color: black;
+}
+

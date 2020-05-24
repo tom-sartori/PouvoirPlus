@@ -1,0 +1,35 @@
+body {
+    background-image: url(../images/background.png);
+}
+
+main{
+    padding:25px 20%;
+}
+
+@media (max-width: 700px) {
+    main {
+      padding:25px 0px;
+      align-items: center;
+    }
+}
+
+article {
+    background-color: lightgray;
+    min-width:300px;
+    max-width:1000px;
+    padding: 5px;
+}
+
+h1 {
+    color:darkred;
+}
+.boutonHDP {
+    cursor: pointer;
+    position: fixed;
+    right: 20px; 
+    bottom: 20px;
+}
+
+.boutonHDP:hover {
+    filter: invert(1);
+}

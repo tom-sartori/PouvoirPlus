@@ -1,0 +1,12 @@
+	h1 {
+		text-align:center
+	}
+
+	p>a {
+		text-decoration:none;
+		color:darkred;
+	}
+
+	p>a:hover {
+		color:grey;
+	}

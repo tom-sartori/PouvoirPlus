@@ -1,0 +1,191 @@
+/* css des barres de navigation */
+/*grande barre de navigation */
+@media (min-width:1261px) {
+	.disp{	
+		align-items: stretch;
+		height: 60px;
+		margin: auto;
+		display: flex;
+		background-color: darkred;
+    	}
+
+ 	.disp .saut{
+		padding-top: 15px;
+		flex-grow:1;
+		padding-left:45px;
+		padding-right:45px;}
+	
+	div a, .njmetier {
+		width:100%;
+		align-items: stretch;
+		margin:auto;
+		display:flex;
+	}
+
+	div.njmetier {
+		display: inline-block;
+	}
+/* menu deroulant des metiers */
+	.menumetier {
+		padding-top:10px;
+		display: none; 
+		position: relative;
+		background-color: darkred;
+		width:250px;
+		z-index:100;
+	}
+
+	.centreban{
+		margin:0px 50px;
+	}
+
+	.menumetier a {	
+		color: white;
+		font-family:"Arial Black" , serif;
+	}
+
+	.menumetier a:hover{
+		color:black;
+	}
+	
+	.metier:hover .menumetier {
+		display: block;
+	}
+	/* fin menu déroulant des metiers */
+	
+	.ptit {
+		position:absolute; 
+		top:-999px; 
+		left:-9999px; 
+	}
+}	
+/*fin grande barre de navigation*/
+
+/*petite barre de navigation */
+@media (max-width:1260px){
+	.ptit{	
+		align-items: stretch;
+		height: 60px;
+		margin: auto;
+		display: flex;
+		background-color: darkred;	
+    	}
+
+	.ptit div>a{
+		padding-left:20%;
+	}
+	
+	div a, .njmetier {
+		text-align:center;
+		display:flex;
+	}
+
+	div.njmetier {
+		display: block;
+	}
+	/* menu deroulant des metiers */
+	.menumetier {
+		padding-top:10px;
+		display: none; 
+		position: absolute;
+		background-color: darkred;
+		width:200px;
+		top:130px;
+		left:184px;
+	}
+
+	.menumetier a {	
+		color: white;
+		font-family:"Arial Black" , serif;
+	}
+
+	.menumetier a:hover{
+		color:black;
+	}
+	
+	.metier:hover .menumetier {
+		display: block;
+	}
+
+    .disp{
+    	position:absolute; 
+    	top:-999px; 
+    	left:-9999px; 
+    }
+}
+
+.ptitacc{
+    	padding-top:15px;
+    	flex-grow:2;
+}
+
+.ptitpro{
+	padding-top:15px;
+    	flex-grow:1;
+}
+/*fin petite barre de navigation*/
+
+/*ne pas afficher l'image burger*/
+@media (min-width:1261px) {
+    	.burger{
+		position:absolute; 
+		top:-999px; 
+		left:-9999px;
+    	}
+}
+/*fin*/
+
+/* menu déroulent*/
+@media (max-width:1260px) {
+    	.burger{
+		margin: auto;	
+		height:60px;
+		background-color:darkred;	
+		float:left;
+		flex-grow:1;
+    	}
+
+    	.burger #menu2{
+		display: none;
+    	}
+
+    	.burger div>a{
+		margin:auto;
+		padding-bottom:25px;
+		position:relative;
+		background-color: darkred;
+    	}
+
+    	.burger a{
+		display: block;
+		text-align: center;
+   	}
+
+    	.burger:hover #menu2{
+		display: block ;
+		position: absolute;
+		z-index: 100; 
+    	}
+}
+/*fin menu déroulent*/
+/* fin des barres de navigation */
+
+div>a{
+    	text-decoration: none;
+    	color: white;
+    	font-size: 130%;
+    	font-family: "schlaggos" , "Arial Black" , serif;
+}
+
+@font-face {
+    font-family: "schlaggos" ;
+    src: url(../fontes/PatagoniaB.ttf) ;
+}
+
+strong:hover{ 
+    color: black; 
+}
+
+body { 
+    margin: 0px;
+}

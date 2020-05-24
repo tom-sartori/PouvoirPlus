@@ -1,0 +1,17 @@
+article div {
+	text-align: center; 
+}
+
+h1 {
+  	text-align: center;
+   	font-size: 250%;
+}
+
+h2 {
+	color: darkred;
+	padding-top: 20px;
+}
+
+h4 {
+    	color: darkred;
+}

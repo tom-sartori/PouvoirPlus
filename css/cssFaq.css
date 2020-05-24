@@ -1,0 +1,74 @@
+ol {
+	color: darkred;
+	font-size:150%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	padding-left: 0px; /* Enleve le décalage par défaut */
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+a{ 
+	text-decoration: none;
+	color:darkred;
+}
+
+a:hover { 
+	color: black; 
+}
+
+li {
+	margin:40px;
+	text-align:center;
+	line-height: 30px;
+}
+
+h1 { 
+	color: darkred;
+	font-size:300%;
+	margin-top:0px;
+	padding-top: 32px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+ol.rep li {
+	margin: 10px;
+}
+
+h2 { 
+	padding-bottom: 8%; 
+}
+
+ol.rep a { 
+	text-decoration: underline; 
+}
+
+ol.rep>li{ 
+	margin: 80px; 
+}
+textarea {
+	width: 80%; 
+	height: 110px; 
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: #666; /* Gris un peu foncé */
+	resize: none;
+	margin-bottom: 10px;
+}
+
+input[type=submit]{
+	background-color: #4DEE4D; /* Vert normal */ 
+	font-size: 100%;
+}
+
+input[type=submit]:hover {
+	background-color: #00FF00; /* Vert fluo */ 
+	cursor: pointer;
+}

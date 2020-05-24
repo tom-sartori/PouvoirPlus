@@ -1,0 +1,42 @@
+main{   
+    line-height: 50px;
+}
+p{
+	line-height: 20px;
+font-size: 15px;	
+}
+.imgga{
+	position:relative;
+	left:5%; 
+	top:40px;
+	float:left;
+	}
+	
+h2 { 
+	font-size: 45px;
+	text-align:center;
+}
+
+h3 {
+	text-align:center;
+	color: darkred;
+	font-size: 25px;
+}
+
+h5 {
+	font-size: 15px;
+}
+.container-text{
+	position:relative;
+}
+
+.centreimgtext{
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 18px;
+}
+.centreimgacc{
+	opacity: 0.4;
+}

@@ -1,0 +1,184 @@
+/*menu achat dans la page produit*/
+.menuachat{
+    align-items: stretch;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    background-color: gray;	
+}
+
+.menuachat div>.a {
+    max-width:180px;
+    align-items: stretch;
+    margin:auto;
+}
+
+Strong{
+    padding-left:15%
+}
+
+.menuachat div {
+    width: 1250px;
+}
+
+.menuachat a{
+    width: 100%;
+    align-items: center;
+    font-size: 75%;
+}
+
+.menuachat Strong:hover{ 
+    color: darkred; 
+}
+/* fin du menu achat dans la page produit*/
+
+main img { 
+    margin:70px; 
+}
+/*pour les images dans la barre des produits*/
+
+@media(min-width: 551px){
+    .imgagl { /*pour l'image du logo du produit anti-gravité*/
+    position: absolute;
+    left:8%;
+    top:75px;
+    z-index: 1;
+    }
+
+    .imgaml{ /*pour l'image du logo du produit anti-matiere*/
+        position: absolute;
+        left:33%;
+        top:70px;
+        z-index: 1;
+    }
+
+    .imgspl{	/*pour l'image du logo du produit super vitesse*/
+        position: absolute;
+        left:58%;
+        top:75px;
+        z-index: 1;
+    }
+
+    .imgfgl{	/*pour l'image du logo du produit force gigantesque*/
+        position: absolute;
+        left:85%;
+        top:75px;
+        z-index: 1;
+    }
+}
+
+@media(max-width: 550px){
+    .imgagl {
+        position:absolute; top:-999px; left:-9999px; 
+    }
+
+    .imgaml {
+        position:absolute; top:-999px; left:-9999px; 
+    }
+
+    .imgspl {
+        position:absolute; top:-999px; left:-9999px; 
+    }
+
+    .imgfgl {
+        position:absolute; top:-999px; left:-9999px; 
+    }
+
+    .menuachat {
+        height: 50px;
+    }
+}
+/*fin des images dans la barre des produits*/
+
+/* article de la page produit*/
+
+article {
+    padding-bottom: 21px; /* A caue du dernier bouton achat */
+}
+
+article div{
+    text-align: center; 
+}
+/* .containerachat{display:none;} */
+/* debut bouton achat pour une page supérieur à 1261px */
+@media (min-width:1261px){
+    .containerachat {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .containerachat .btnachat {
+        position: absolute;
+        top: 30px;
+        left: 125%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:#C0A87F;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    a>.btnachat{
+        text-decoration: none;
+        color: white;
+        font-size: 130%;
+    }
+
+    .containerachat .btnachat:hover {
+        background-color:#C0A050;
+    }
+}
+   /* fin bouton achat */
+   
+/* debut bouton achat pour une page inférieur à 1260px */
+@media (max-width:1260px) {
+    .containerachat {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .containerachat .btnachat {
+        position: absolute;
+        top: 30px;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:#C0A87F;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    a>.btnachat{
+        text-decoration: none;
+        color: white;
+        font-size: 130%;
+    }
+
+    .containerachat .btnachat:hover {
+        background-color:#C0A050;
+    }
+}
+ 
+h1 { 
+    text-align: center; 
+}
+
+h3 { 
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
